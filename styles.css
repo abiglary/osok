@@ -7,13 +7,13 @@ body {
   background: #200122; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ffc0cb,
-    #be8343
+    #173e58,
+    #e04833
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #ffc0cb,
-    #be8343
+    #173e58,
+    #e04833
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   font-family: "Poppins", sans-serif;
@@ -25,14 +25,14 @@ body {
 }
 
 .panel-w {
-  background-color: white;
+  background-color: #bab2b2;
 }
 
 /* panel1 */
 
 #panel1 {
   color: white;
-  background-image: url("images/christian-wiediger-1210801-unsplash.jpg");
+  background-image: url("images/top-photo.png");
   background-size: cover;
   position: relative;
   opacity: 0.9;
@@ -146,27 +146,27 @@ body {
     linear,
     left top,
     left bottom,
-    color-stop(0.05, #ffba7d),
-    color-stop(1, #fa9bc7)
+    color-stop(0.05, #d64737),
+    color-stop(1, #012f5c)
   );
-  background: -moz-linear-gradient(top, #ffba7d 5%, #fa9bc7 100%);
-  background: -webkit-linear-gradient(top, #ffba7d 5%, #fa9bc7 100%);
-  background: -o-linear-gradient(top, #ffba7d 5%, #fa9bc7 100%);
-  background: -ms-linear-gradient(top, #ffba7d 5%, #fa9bc7 100%);
-  background: linear-gradient(to bottom, #ffba7d 5%, #fa9bc7 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffba7d', endColorstr='#fa9bc7',GradientType=0);
-  background-color: #ffba7d;
+  background: -moz-linear-gradient(top, #d64737 5%, #012f5c 100%);
+  background: -webkit-linear-gradient(top, #d64737 5%, #012f5c 100%);
+  background: -o-linear-gradient(top, #d64737 5%, #012f5c 100%);
+  background: -ms-linear-gradient(top, #d64737 5%, #012f5c 100%);
+  background: linear-gradient(to bottom, #d64737 5%, #012f5c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d64737', endColorstr='#012f5c',GradientType=0);
+  background-color: #d64737;
   -moz-border-radius: 33px;
   -webkit-border-radius: 33px;
   border-radius: 33px;
-  border: 2px solid #f09ebc;
+  border: 2px solid #808080;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: bold;
-  padding: 13px 50px;
+  padding: 13px 70px;
   text-decoration: none;
 }
 .myButton:hover {
@@ -174,16 +174,16 @@ body {
     linear,
     left top,
     left bottom,
-    color-stop(0.05, #fa9bc7),
-    color-stop(1, #ffba7d)
+    color-stop(0.05, #012f5c),
+    color-stop(1, #d64737)
   );
-  background: -moz-linear-gradient(top, #fa9bc7 5%, #ffba7d 100%);
-  background: -webkit-linear-gradient(top, #fa9bc7 5%, #ffba7d 100%);
-  background: -o-linear-gradient(top, #fa9bc7 5%, #ffba7d 100%);
-  background: -ms-linear-gradient(top, #fa9bc7 5%, #ffba7d 100%);
-  background: linear-gradient(to bottom, #fa9bc7 5%, #ffba7d 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa9bc7', endColorstr='#ffba7d',GradientType=0);
-  background-color: #fa9bc7;
+  background: -moz-linear-gradient(top, #012f5c 5%, #d64737 100%);
+  background: -webkit-linear-gradient(top, #012f5c 5%, #d64737 100%);
+  background: -o-linear-gradient(top, #012f5c 5%, #d64737 100%);
+  background: -ms-linear-gradient(top, #012f5c 5%, #d64737 100%);
+  background: linear-gradient(to bottom, #012f5c 5%, #d64737 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#012f5c', endColorstr='#d64737',GradientType=0);
+  background-color: #012f5c;
 }
 .myButton:active {
   position: relative;
@@ -195,10 +195,10 @@ body {
 }
 
 footer {
-  color: white;
+  color: black;
   text-align: center;
   padding: 2.5em;
-  background-color: black;
+  background-color: #bab2b2;
 }
 
 /* Extra small devices (phones, 600px and down) */
