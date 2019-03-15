@@ -4,18 +4,6 @@
 }
 
 body {
-  background: #200122; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #173e58,
-    #e04833
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #173e58,
-    #e04833
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
@@ -28,11 +16,20 @@ body {
   background-color: #bab2b2;
 }
 
+.text {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #173e58 0%, #e04833 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5em;
+  font-family: "Poppins", sans-serif;
+}
+
 /* panel1 */
 
 #panel1 {
   color: white;
-  background-image: url("images/top-photo.png");
+  background-image: url("images/scanpoulette1stimage.png");
   background-size: cover;
   position: relative;
   opacity: 0.9;
@@ -107,9 +104,9 @@ body {
 
 .techno-title {
   font-family: "Poppins", sans-serif;
-  text-align: center;
-  color: white;
+  color: #bab2b2;
   font-size: 3em;
+  text-align: center;
 }
 
 .techno-circle {
@@ -132,7 +129,7 @@ body {
   border-radius: 50%;
   width: 160px;
   height: 160px;
-  border: 2px solid white;
+  border: 2px solid #e04833;
 }
 
 .bottom-CTA {
@@ -142,47 +139,18 @@ body {
 }
 
 .myButton {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0.05, #d64737),
-    color-stop(1, #012f5c)
-  );
-  background: -moz-linear-gradient(top, #d64737 5%, #012f5c 100%);
-  background: -webkit-linear-gradient(top, #d64737 5%, #012f5c 100%);
-  background: -o-linear-gradient(top, #d64737 5%, #012f5c 100%);
-  background: -ms-linear-gradient(top, #d64737 5%, #012f5c 100%);
-  background: linear-gradient(to bottom, #d64737 5%, #012f5c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d64737', endColorstr='#012f5c',GradientType=0);
-  background-color: #d64737;
-  -moz-border-radius: 33px;
-  -webkit-border-radius: 33px;
-  border-radius: 33px;
-  border: 2px solid #808080;
+  background-color: #bab2b2;
+  border: 2px solid #ffffff;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  padding: 13px 70px;
+  padding: 10px 76px;
   text-decoration: none;
 }
 .myButton:hover {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0.05, #012f5c),
-    color-stop(1, #d64737)
-  );
-  background: -moz-linear-gradient(top, #012f5c 5%, #d64737 100%);
-  background: -webkit-linear-gradient(top, #012f5c 5%, #d64737 100%);
-  background: -o-linear-gradient(top, #012f5c 5%, #d64737 100%);
-  background: -ms-linear-gradient(top, #012f5c 5%, #d64737 100%);
-  background: linear-gradient(to bottom, #012f5c 5%, #d64737 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#012f5c', endColorstr='#d64737',GradientType=0);
   background-color: #012f5c;
 }
 .myButton:active {
