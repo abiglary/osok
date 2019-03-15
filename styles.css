@@ -21,7 +21,6 @@ body {
   font-family: "Faster One", cursive;
   padding: 0.5em 1em;
   font-size: 3em;
-  color: crimson;
 }
 
 .container {
@@ -51,6 +50,7 @@ body {
 .centered-text {
   text-align: center;
   margin: 1em auto;
+  padding-left: 80px;
 }
 
 /* Panel #1 */
@@ -184,7 +184,7 @@ body {
 .bottom-text {
   width: 459px;
   height: 188px;
-  font-family: TitilliumWeb;
+  font-family: "Titillium Web", sans-serif;
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
