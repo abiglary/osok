@@ -24,6 +24,10 @@ body {
   height: 100vh;
 }
 
+.panel-w {
+  background-color: white;
+}
+
 /* panel1 */
 
 #panel1 {
@@ -95,27 +99,126 @@ body {
   opacity: 0.8;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  ...;
+#panel5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  ...;
+.techno-title {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+.techno-circle {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.techno-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.techno-text h4 {
+  color: white;
+  font-size: 2em;
+}
+
+.moncercle {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 2px solid white;
+}
+
+.bottom-CTA {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.myButton {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #ffba7d),
+    color-stop(1, #fa9bc7)
+  );
+  background: -moz-linear-gradient(top, #ffba7d 5%, #fa9bc7 100%);
+  background: -webkit-linear-gradient(top, #ffba7d 5%, #fa9bc7 100%);
+  background: -o-linear-gradient(top, #ffba7d 5%, #fa9bc7 100%);
+  background: -ms-linear-gradient(top, #ffba7d 5%, #fa9bc7 100%);
+  background: linear-gradient(to bottom, #ffba7d 5%, #fa9bc7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffba7d', endColorstr='#fa9bc7',GradientType=0);
+  background-color: #ffba7d;
+  -moz-border-radius: 33px;
+  -webkit-border-radius: 33px;
+  border-radius: 33px;
+  border: 2px solid #f09ebc;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 13px 50px;
+  text-decoration: none;
+}
+.myButton:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #fa9bc7),
+    color-stop(1, #ffba7d)
+  );
+  background: -moz-linear-gradient(top, #fa9bc7 5%, #ffba7d 100%);
+  background: -webkit-linear-gradient(top, #fa9bc7 5%, #ffba7d 100%);
+  background: -o-linear-gradient(top, #fa9bc7 5%, #ffba7d 100%);
+  background: -ms-linear-gradient(top, #fa9bc7 5%, #ffba7d 100%);
+  background: linear-gradient(to bottom, #fa9bc7 5%, #ffba7d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa9bc7', endColorstr='#ffba7d',GradientType=0);
+  background-color: #fa9bc7;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+#love {
+  color: crimson;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 2.5em;
+  background-color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 769px) {
+  #panel1 h1 {
+    font-size: 4em;
+    top: 6em;
+  }
+  #panel1 h3 {
+    font-size: 1em;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  ...;
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  ...;
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  ...;
+  #panel1 h1 {
+    font-size: 7em;
+    top: 6em;
+  }
+  #panel1 h3 {
+    font-size: 2em;
+  }
 }
