@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #200122; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6f0000,
+    #200122
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6f0000,
+    #200122
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.panel {
+  height: 100vh;
+}
+
+/* panel1 */
+
+#panel1 {
+  color: white;
+  background-image: url("images/christian-wiediger-1210801-unsplash.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+#panel1 h3 {
+  font-size: 2em;
+  position: absolute;
+  top: 1em;
+  left: 2em;
+  opacity: 0.7;
+}
+
+#panel1 h1 {
+  font-size: 8em;
+  position: absolute;
+  top: 2em;
+  right: 0.5em;
+  text-align: right;
+}
