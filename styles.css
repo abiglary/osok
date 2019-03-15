@@ -65,7 +65,7 @@ body {
 }
 
 .myButton-transparent {
-  background-color: #rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
   border: 2px solid #ffffff;
   display: inline-block;
   cursor: pointer;
@@ -76,6 +76,7 @@ body {
   padding: 10px 76px;
   text-decoration: none;
 }
+
 .myButton-transparent:hover {
   color: #012f5c;
   background-color: white;
@@ -103,7 +104,7 @@ body {
   width: 30%;
   height: auto;
   border: 2px solid white;
-  box-shadow: 4px 4px 40px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 40px 8px white;
   border-radius: 20px;
   opacity: 0.9;
 }
@@ -176,6 +177,7 @@ body {
 
 .barney-photo img {
   width: 500px;
+  padding-top: 37px;
 }
 
 .bottom-text {
@@ -209,6 +211,12 @@ body {
   padding: 17px 53px;
   text-decoration: none;
 }
+
+.myButton:hover {
+  color: #012f5c;
+  background-color: white;
+}
+
 .myButton:active {
   position: relative;
   top: 1px;
@@ -223,6 +231,14 @@ footer {
   text-align: center;
   padding: 2.5em;
   background-color: #173e58;
+}
+
+.glasses-photo {
+  position: absolute;
+  top: 64%;
+  left: -52%;
+  width: 90%;
+  height: auto;
 }
 
 /* Extra small devices (phones, 600px and down) */
