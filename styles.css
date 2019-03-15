@@ -203,18 +203,10 @@ body {
   border: 2px solid #173e58;
   display: inline-block;
   cursor: pointer;
-<<<<<<< HEAD
   color: #173e58;
   font-family: "Titillium Web", sans-serif;
   font-size: 17px;
   padding: 17px 53px;
-=======
-  color: #ffffff;
-  font-family: "Titillium Web", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px 76px;
->>>>>>> b164339e8711d93a23c824edcd389fbc9878e089
   text-decoration: none;
 }
 .myButton:active {
