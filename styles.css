@@ -50,6 +50,51 @@ body {
   text-align: right;
 }
 
+#panel2 {
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  position: relative;
+}
+
+#panel2 h3 {
+  font-size: 2em;
+  position: absolute;
+  top: 2em;
+  left: 4em;
+  opacity: 0.7;
+}
+
+#panel2 h3 {
+  font-size: 3em;
+  position: absolute;
+  top: 1em;
+  left: 2em;
+  opacity: 0.7;
+}
+
+#panel2 p {
+  font-size: 2em;
+  position: absolute;
+  top: 6em;
+  left: 2em;
+  opacity: 0.7;
+  text-align: center;
+}
+
+#panel2 img {
+  filter: grayscale(90%);
+  width: 60vw;
+  height: 45vw;
+  float: right;
+  margin-top: 8em;
+  margin-right: 4em;
+  border: 2px solid white;
+  box-shadow: 4px 4px 40px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  z-index: -4;
+  opacity: 0.8;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   ...;
